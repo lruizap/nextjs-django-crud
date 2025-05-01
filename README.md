@@ -14,7 +14,7 @@ Una aplicación de gestión de tareas construida con **Django** en el backend y 
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/lruizap/task-manager.git
+git clone https://github.com/lruizap/nextjs-django-crud.git
 cd task-manager
 ```
 
@@ -98,7 +98,7 @@ DATABASE_URL=sqlite:///db.sqlite3
 ### Frontend (`frontend/.env.local`)
 
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:8000/api/tasks
+NEXT_PUBLIC_BACKEND_URL=http://localhost:8000/api/tasks/
 ```
 
 ---
